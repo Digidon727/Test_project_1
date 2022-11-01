@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/media.css" />
+		<link rel="stylesheet" href="./fontawesome-free/css/all.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+			integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Тестовый проект</title>
+	</head>
+	<body id="arrowUp">
+		<a href="#arrowUp" class="arrowUp">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+
+		<header class="header">
+			<div class="container">
+				<!--Header nav-->
+				<div class="header-nav">
+					<nav class="nav" id="nav">
+						<ul class="nav-list">
+							<li class="nav-item">
+								<a href="#home" class="nav-link activ">Home</a>
+							</li>
+							<li class="nav-item">
+								<a href="#about_me" class="nav-link">About me</a>
+							</li>
+							<li class="nav-item">
+								<a href="#skills" class="nav-link">Skills</a>
+							</li>
+							<li class="nav-item">
+								<a href="#portfolio" class="nav-link">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a href="#contacts" class="nav-link">Contacts</a>
+							</li>
+							<div class="nav-content-ru">
+								<p><span>RU </span>| ENG</p>
+							</div>
+						</ul>
+
+						<button class="nav-button" id="nav-button">
+							<img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="" />
+						</button>
+					</nav>
+				</div>
+
+				<!--Header content-->
+
+				<div class="header-contents">
+					<div class="header-content">
+						<div
+							class="header-content-name"
+							data-aos="fade-right"
+							data-aos-duration="3000"
+						>
+							<h1>Denis Novik</h1>
+						</div>
+						<div
+							class="header-content-info"
+							data-aos="fade-down"
+							data-aos-duration="3000"
+						>
+							<p>UX | UI designer 24 years old, Minsk</p>
+						</div>
+						<div
+							class="header-content-ru"
+							data-aos="fade-left"
+							data-aos-duration="3000"
+						>
+							<p><span>RU </span>| ENG</p>
+						</div>
+					</div>
+					<div
+						class="header-content-img"
+						data-aos="zoom-in-up"
+						data-aos-duration="3000"
+					>
+						<picture>
+							<source
+								media="(max-width: 430px)"
+								srcset="./img/header/Group1.png"
+							/>
+							<img src="./img/header/heder-man.png" alt="hero" />
+						</picture>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="about" id="about_me">
+			<div class="container">
+				<div class="about-content">
+					<h2 class="content-title">About me</h2>
+					<div class="about-content-info">
+						<p>
+							Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in
+							<br />
+							design and everything connected with it.
+						</p>
+						<p>
+							I'm studying at courses "Web and mobile design interfaces" in
+							IT-<br />Academy
+						</p>
+						<p>
+							Ready to implement excellent projects<br />
+							with wonderful people.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sckils" id="skills">
+			<div class="container">
+				<div class="skills-programs">
+					<h2 class="content-title">Skills</h2>
+					<p>I work in such programs as</p>
+				</div>
+				<div class="skills-programs-editors">
+					<div
+						class="skills-programs-editor-card"
+						data-aos="fade-right"
+						data-aos-duration="2000"
+					>
+						<img src="./img/editors/PS.png" alt="ps" class="skil-img" />
+						<h3>Adobe Photoshop</h3>
+						<img src="./img/editors/stars-1.png" alt="" />
+					</div>
+					<div
+						class="skills-programs-editor-card"
+						data-aos="fade-right"
+						data-aos-duration="2500"
+					>
+						<img src="./img/editors/AI.png" alt="ai" class="skil-img" />
+						<h3>Adobe Photoshop</h3>
+						<img src="./img/editors/stars-2.png" alt="" />
+					</div>
+					<div
+						class="skills-programs-editor-card"
+						data-aos="fade-right"
+						data-aos-duration="3000"
+					>
+						<img src="./img/editors/AE.png" alt="ps" class="skil-img" />
+						<h3>Adobe Photoshop</h3>
+						<img src="./img/editors/stars-1.png" alt="" />
+					</div>
+					<div
+						class="skills-programs-editor-card"
+						data-aos="fade-right"
+						data-aos-duration="3000"
+					>
+						<img src="./img/editors/Figma.png" alt="ps" class="skil-img" />
+						<h3>Adobe Photoshop</h3>
+						<img src="./img/editors/stars-1.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio" id="portfolio">
+			<div class="container">
+				<div class="portfolio-title">
+					<h2 class="content-title">Portfolio</h2>
+				</div>
+				<div class="project" data-aos="zoom-in-up" data-aos-duration="3000">
+					<img
+						src="./img/portfolio/01.jpg"
+						alt="Online fashion store - Homepage"
+						class="project-img"
+					/>
+					<h3 class="project-title">
+						<a href="#!">Online fashion store - Homepage</a>
+					</h3>
+				</div>
+
+				<div class="project" data-aos="zoom-in-up" data-aos-duration="3000">
+					<img
+						src="./img/portfolio/02.jpg"
+						alt="Reebok Store - Concept"
+						class="project-img"
+					/>
+					<h3 class="project-title">
+						<a href="#!">Reebok Store - Concept</a>
+					</h3>
+				</div>
+
+				<div class="project" data-aos="zoom-in-up" data-aos-duration="3000">
+					<img
+						src="./img/portfolio/03.jpg"
+						alt="Braun Landing Page - Concept"
+						class="project-img"
+					/>
+					<h3 class="project-title">
+						<a href="#!">Braun Landing Page - Concept</a>
+					</h3>
+				</div>
+			</div>
+		</section>
+
+		<footer class="contacts" id="contacts">
+			<div class="container">
+				<div class="contacts-title">
+					<h2 class="title-1">Contacts</h2>
+				</div>
+
+				<div class="contacts-content">
+					<p>
+						Want to know more or just chat?<br />
+						You are welcome!
+					</p>
+				</div>
+
+				<div class="contacts-button">
+					<a href="#!" class="btn">Send message</a>
+				</div>
+
+				<div class="contacts-social">
+					<a href="#!"><img src="./img/socials/1.svg" alt="LinkedIn" /></a>
+					<a href="#!"><img src="./img/socials/2.svg" alt="Instargam" /></a>
+					<a href="#!"><img src="./img/socials/3.svg" alt="Behance" /></a>
+					<a href="#!"><img src="./img/socials/4.svg" alt="Dribble" /></a>
+				</div>
+
+				<div class="contacts-footer">
+					<p>
+						Like me on <br />
+						LinkedIn, Instagram, Behance, Dribble
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+			integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
